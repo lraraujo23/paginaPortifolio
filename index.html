@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c36aebfed.js" crossorigin="anonymous"></script>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Lucas Araújo</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/projetos.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/contatos.css">
+</head>
+
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos"><i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="#contatos"><i class="fa-solid fa-address-book"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <section class="home" id="home">
+            
+            <div>
+            <div>
+                <h1>Olá</h1> 
+                <h2>Eu sou <font color="blue"> Lucas </font>,<br> 
+                Desenvolvedor Web</h2>
+            </div>
+            <div>
+                <h3>Me Chamo Lucas Araujo, <br>
+                Tenho 28 anos, sou estudante de programação Web !!</h3><br>
+            </div>
+            <div class="botao">
+                <a href="./assets/doc/CurriculoLucasAraujo.docx" target="_blank">
+                <button class="botaoCV">
+                    Baixar CV
+                </button>
+            </a>
+            <a href="https://wa.me/5519994602613" target="_blank">
+                <button class="botaoFalar">
+                    Fale Comigo
+                </button>
+            </a>
+            </div>
+        </div>
+        
+            <img src="./assets/img/saturno.png" alt="Imagem Saturno">
+        
+        </section>
+        
+        <section id="skills">
+            <h2 class="skillsTitulo">SKILLS</h2>
+            <div class="grifado"></div>
+
+            <div class="skillsArea">
+                <div class="skillsHard">
+                    <ul>
+                        <h3 class="subtitulo">Hard</h3>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div class="skillsSoft">
+                    <ul>
+                        <h3 class="subtitulo">Soft</h3>
+                        <li>Empenho</li>
+                        <li>Comunicação</li>
+                        <li>Trabalho em Equipe</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="projetos">
+
+            <h2 class="projetosTitulo">PROJETOS</h2>
+            <div class="grifado"></div>
+
+            <div class="projetosArea">
+                <div class="projetoCard">
+                    <img src="./assets/img/projetoCep.jpg" alt="Projeto Busca Cep" height="150px" width="250px">
+                    
+                        <a href="https://lraraujo23.github.io/BuscaCep/"><button class="botaoProjeto">Projeto</button></a>
+                        <a href="https://github.com/lraraujo23/BuscaCep"><button class="botaoProjeto">GitHub</button></a>
+                    
+
+                </div>
+                <div class="projetoCard">
+                    <img src="./assets/img/projetoMeme.jpg" alt="Projeto Gerador de Meme" height="150px" width="250px">
+                    
+                        <a href="https://lraraujo23.github.io/geradorMemes/"><button class="botaoProjeto">Projeto</button></a>
+                        <a href="https://github.com/lraraujo23/geradorMemes"><button class="botaoProjeto">GitHub</button></a>
+                    
+
+                </div>
+                <div class="projetoCard">
+                    <img src="./assets/img/projetoNLW.jpg" alt="Projeto NLW" height="150px" width="250px">
+
+                        <a href="https://lraraujo23.github.io/NLW/"><button class="botaoProjeto">Projeto</button></a>
+                        <a href="https://github.com/lraraujo23/NLW"><button class="botaoProjeto">GitHub</button></a>
+    
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contatos">
+
+            <h2 class="contatosTitulo">CONTATOS</h2>
+            <div class="grifado"></div>
+
+            <div class="contatosArea">
+                <div class="enviarEmail">
+                    <form action="mailto:lraraujo23@gmail.com" method="post" enctype="text/plain">
+
+                      
+                        <input class="contatoFormText" name="nome" type="text" placeholder="Seu Nome" required><br>
+                        <input class="contatoFormText" type="email" placeholder="Seu Email" required><br>
+                        
+                        <input class="contatoFormMensagem" name="mensagem" placeholder="Mensagem" required></input><br>
+                        <input type="submit" value="Enviar">
+                        
+    
+                    </form>
+                </div>
+
+                <div class="contatosLinks">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="contatosLinksOpcoes">
+                                <img src="./assets/icons/email.png" alt="iconeEmail">
+                                <p class="contatosSubtitulo">lraraujo23@gmail.com</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contatosLinksOpcoes">
+                                <img src="./assets/icons/telefone.png" alt="iconeCelular">
+                                <a href="https://wa.me/5519994602613" target="_blank">
+                                    <p class="contatosSubtitulo">(19)99460-2613</p>
+                                </a>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="contatosLinksOpcoes">
+                                <img src="./assets/icons/linkedin.png" alt="iconeLinkedin">
+                                <a href="https://www.linkedin.com/in/lucasraraujo1994/">
+                                    <p class="contatosSubtitulo">@lucasraraujo1994</p>
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contatosLinksOpcoes">
+                                <img src="./assets/icons/github.png" alt="iconeGit">
+                                <a href="https://github.com/lraraujo23">
+                                    <p class="contatosSubtitulo">@lraraujo23</p>
+                                </a>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    
+                </table>                
+                    
+                </div>
+                
+                
+            </div>
+
+
+            <footer>
+                <h2 class="copy">Copyright © | Lucas Araujo | 2023</h2>
+            </footer> 
+        </section>
+
+    
+</body>
+
+</html>
+
+
+
+
+
